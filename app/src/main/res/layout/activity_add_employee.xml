@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shabeone"
+        android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddEmployee">
+
+    <EditText
+        android:id="@+id/insertname"
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/shapedittext"
+        android:cursorVisible="true"
+        android:gravity="center"
+        android:padding="5dp"
+        android:hint="Please Insert name of Employee"
+        android:textAllCaps="false"
+        android:textColor="@color/colorText"
+        />
+
+    <EditText
+        android:inputType="textMultiLine"
+        android:textColor="@color/colorText"
+        android:id="@+id/inserposition"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shapedittext"
+        android:cursorVisible="true"
+        android:gravity="center"
+        android:hint="Please Insert position of Employee"
+         />
+
+    <EditText
+        android:textColor="@color/colorText"
+        android:id="@+id/insertsalary"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shapedittext"
+        android:cursorVisible="true"
+        android:inputType="number"
+        android:gravity="center"
+        android:hint="Please Insert salary of Employee"
+        />
+
+    <Button
+        android:id="@+id/InsertEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shabbutton"
+        android:text="Add"
+        android:textSize="25sp" />
+</LinearLayout>
